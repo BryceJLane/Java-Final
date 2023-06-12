@@ -1,5 +1,10 @@
 body {
-    background-color: #f8f9fa;
+    background-color: #f6e6e2;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 30px;
 }
 
 #results {
@@ -8,4 +13,24 @@ body {
 
 #results .card {
     margin-bottom: 20px;
+}
+
+h1 {
+    color: #a23321;
+}
+
+.btn-primary {
+    background-color: #a23321;
+    border-color: #a23321;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #87201c;
+    border-color: #87201c;
+}
+
+.form-control {
+    border-color: #a23321;
 }
